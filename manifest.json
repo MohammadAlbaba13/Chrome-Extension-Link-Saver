@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Link Saver",
+    "version": "1.0",
+    "description": "Save your favorite links!",
+    "permissions": ["tabs", "storage"],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "background": {
+      "service_worker": "script.js"
+    }
+  }
+  
